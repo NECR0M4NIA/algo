@@ -61,3 +61,8 @@ function estMajeur(age) {
 }
 console.log(estMajeur(20)); // Résultat attendu : true
 console.log(estMajeur(16)); // Résultat attendu : false
+
+function maxTroisNombres(a, b, c) {
+    return maxDeuxNombres(a, b, c)
+  }
+  console.log(maxTroisNombres(3, 7, 5)); // Résultat attendu : 7
